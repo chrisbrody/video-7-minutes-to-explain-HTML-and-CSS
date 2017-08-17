@@ -1,0 +1,117 @@
+HTMLvsCSS 1.1 - Intro to video for HTML vs CSS
+HTMLvsCSS 1.2 - HTML Terminology
+HTMLvsCSS 1.3 - CSS Terminology
+HTMLvsCSS 1.4 - A look at them working together
+HTMLvsCSS 1.5 - Using them together
+HTMLvsCSS 1.6 - Outro to video for HTML vs CSS
+
+
+
+HTMLvsCSS 1.1 - Intro to video for HTML vs CSS
+Chris from Codify Academy here.
+In this video i'm going to show you some of the major differences between HTML & CSS.
+The faster you can understand these differences, the faster you'll be able to build websites.
+
+HTML and CSS are two markup languages that get used together to make website, this is the only commonality have. they both look different and do different things, so be sure to take notes, practice along with the video and read more into each term.
+
+Oh and one last thing before we start, these markup languages have been through many versions we will be writing HTML5 and CSS3.
+We just refer to them as HTML and CSS and with each new version we get awesome new features, we'll see these later on.
+
+
+
+HTMLvsCSS 1.2 - HTML Terminology
+For Hyper Text Markup Language, better known as HTML we need to know about elements, tags & attributes.
+HTML elements are used to create structure for a website. they are generally consist of a start tag, some content, and an end tag.
+Here is an example of a paragraph element.
+we wrap the words aka content around a start and end tag.
+
+Tags are used to mark the start and end of an HTML element.
+and Here is an example of that, notice its very similar to an element.
+
+Tags and elements are basically the same thing and often are interchanged, because we normally don't create tags without adding some kind of content.
+
+Tags are created with angle brackets and the difference between an start and end tag is the "forward slash". if you forget an end tag you will get unexpected results, but that will be part of the fun of learning.
+
+
+last we have attributes. Attributes are not required but when used there're going to get added to a start tag
+remember that first piece of any element.
+
+Ok, so Attributes modify how HTML behaves you'll understand what this means the more elements you create and the more attributes you add. to those elements.
+basically It just changes how they normally act.
+
+Now Attributes will always be created like this, attribute name is equal to a set of quotes and a value inside those quotes.
+
+There are many elements and many attributes so we're gonna take it slow for now and look at one example
+
+this tag is from the template we created earlier.
+The link tag here has two attributes on it name & value pairs on the start tag. Both have been highlighted.
+the 1st attribute's name is rel, and the 2nd attribute's name is href notice they are separated by a space.
+
+
+the value, which is in the quotes, for rel is used to tell the browser what to expect, here we have stylesheet because we want to let the browser know "hey you need expect this css file",
+
+and the value for href again the quotes tells the browser where a file is locate.
+and the browser says ok Once I get that, I'll send it back to you so you can use that file. This is very common so we will see more shortly.
+
+The file we included will allow us to create CSS on a separate page and use it in the HTML, this is not possible without a rel and href attribute with these exact values.
+
+An element's start tag can contain any number of these name/value attribute pairs as long as they have that space seperating them.
+
+oh And I know you must be thinking where is the closing link tag? well, a very small percent of HTML element are known as void tag or self closing tags, these wont be used to display words like the other normal tag, The most common are link, meta and img.
+
+Remember HTML is all about elements. To learn HTML is to learn and use elements together with attributes.
+
+
+
+HTMLvsCSS 1.3 - CSS Terminology
+For CSS we need to know about selectors, properties & values.
+Cascading Style Sheets or CSS gives us a way to add styles to the HTML elements.
+
+Selectors are just a fancy name for choosing elements to style.
+
+There are different types of selectors we can use that we'll check out later, but one simple type is an HTML selector.
+In css we can choose the names of HTML tags and use it to change the style of those specific types of elements.
+
+If we choose the p element in css and follow that by curly brackets we can then add properties and values to those selected p elements.
+
+There are around 300 properties, about 50 commonly used, that we can apply to a selector to change how those elements selected look.
+
+Inside the curly brackets we choose a property, add a colon, and choose a value for that property. A semi-colon at the end is used to separate properties. we can also have as many property and value pairs as we want one a selector.
+
+Don't worry about trying to memorize all possible ways to select elements, or add property and value pairs to those selectors, thats going to happen over time.
+
+
+
+
+HTMLvsCSS 1.4 - A look at them working together
+Lets make a copy of our template and paste it, renaming it test code. and lets do a little practice. Open up the project folder in atom, first we add some HTML to a .html file and css to our .css file
+
+and if you don't have this template, just go back to the video that shows you how to use a template
+
+lets create a div element and inside that a heading 1 element and paragraph below.  Lets add some content to the h1, this is a heading1 and then in the p element add the word lorem and hit tab, to create some placeholder text.
+
+
+Make sure to save and then copy the file path, open up google and paste the url. to see our content.
+
+
+
+In CSS We'll choose those elements we have with HTML selectors, add some curly brackets and then some property and value pairs.
+
+Lets select the body and change the background-color of black and color to white.  inspect and we can see the background-color has been changed on the body and the font color is now white.
+
+Back to Atom and select the div in css and change the background-color to white, the color to black, the margin to auto and the width to 80%
+then go back to google and refresh the page, and we can see the changes to the element.
+
+Again back to Atom and select the h1 in css and change padding to 50px and the letter spacing to 5px.
+save and refresh to see the changes.
+
+This is how websites are created, first we add some HTML content then add some styles with CSS to make it look better.
+
+
+
+HTMLvsCSS 1.5 - Using them together
+After this video take some time to check out the links in the description, so you can practice creating some more HTML elements, selecting them in CSS and applying some properties and values to those selectors.  The more you practice the faster you will be able to create.
+
+
+HTMLvsCSS 1.6 - Outro to video for HTML vs CSS
+That's it for now, go ahead and get to practicing and remember HTML is for adding words to a webpage and CSS is changing the look of a webpage.
